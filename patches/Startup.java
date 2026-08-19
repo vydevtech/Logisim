@@ -55,6 +55,12 @@ public class Startup {
 		}
 	}
 	
+	static void doNew() {
+	if (startupTemp != null && startupTemp.initialized) {
+		ProjectActions.doNew(null, true);
+	}
+}
+	
 	private static void registerHandler() {
 		String osName = System.getProperty("os.name", "");
 		if (!osName.toLowerCase().contains("mac")) return;
