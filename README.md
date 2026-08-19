@@ -32,6 +32,20 @@ in the first place.
   `java.awt.Desktop` API (available since Java 9), which brings the app's windows back to
   front when the Dock icon is clicked
 
+## Prerequisites
+
+1. **JDK 14 or newer** (required for `jpackage`).
+   Download from: https://adoptium.net/temurin/releases/ (choose macOS, JDK, .tar.gz)
+   Extract it somewhere on disk and update the `JDK_BIN` path at the top of `build.sh`.
+
+2. **Original Logisim 2.7.1 jar**
+   Download from: https://sourceforge.net/projects/circuit/files/
+   Update the `ORIGINAL_JAR` path in `build.sh` accordingly.
+
+3. **App icon (optional)**
+   If you have a `.icns` icon file, update the `ICON` path in `build.sh`, or remove
+   the `--icon` line from the `jpackage` command if you don't need one.
+
 ## Building
 
 Requires JDK 14+ (for `jpackage`). See `build.sh`.
