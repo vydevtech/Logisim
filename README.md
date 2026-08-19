@@ -35,7 +35,7 @@ in the first place.
 ## Prerequisites
 
 1. **JDK 14 or newer** (required for `jpackage`).
-   Download from: https://adoptium.net/temurin/releases/ (choose macOS, JDK, .tar.gz)
+   Download from: [https://adoptium.net/temurin/releases/ ](https://www.oracle.com/java/technologies/downloads/#java25) (choose macOS, JDK, .tar.gz)
    Extract it somewhere on disk and update the `JDK_BIN` path at the top of `build.sh`.
 
 2. **Original Logisim 2.7.1 jar**
